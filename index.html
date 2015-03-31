@@ -1,91 +1,19 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<title>Faraway Cottage</title>
 	<meta name="author" content="Mark Berridge" />
-	<meta name="description" content="Faraway Cottage Holiday Home Broadbottom" />
-	<meta name="keywords"  content="holiday,cottage,home,rent,faraway,derbyshire,cheshire,glossop,broadbottom,rural" />
+	<meta name="description" content="Faraway holiday cottage Broadbottom" />
+	<meta name="keywords" content="holiday,cottage,home,rent,let,faraway,derbyshire,cheshire,glossop,broadbottom,rural" />
 	<meta name="Resource-type" content="Document" />
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<style>
-
-	/* Style for our header texts
-	* --------------------------------------- */
-  h1{
-    font-size: 5em;
-    color:#fff;
-    margin:0;
-    padding:0;
-  }
-  p{
-    font-size: 1.1em;
-    color:#fff;
-    margin:1% 10% 0 10%;
-    padding:0;
-  }
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-  a:hover {
-    text-decoration: underline;
-  }
-
-
-	/* Backgrounds will cover all the section
-	* --------------------------------------- */
-	#section0,
-	#section1,
-	#section2,
-	#section3{
-		background-size: cover;
-	}
-
-	/* Defining each section background and styles
-	* --------------------------------------- */
-	#section0{
-		background-image: url(img/bg1.jpg);
-		padding: 30% 0 0 0;
-	}
-	#section2{
-		background-image: url(img/bg3.jpg);
-		padding: 6% 0 0 0;
-	}
-	#section3{
-		background-image: url(img/bg4.jpg);
-		padding: 6% 0 0 0;
-	}
-  #section3 h1, #section3 p{
-    color: #333;
-  }
-  #section3 a{
-    color: #333;
-  }
-
- 	/*Adding background for the slides
-   * --------------------------------------- */
-   #slide1{
-    background-image: url(img/bg2.jpg);
-    padding: 6% 0 0 0;
-  }
-  #slide2{
-    background-image: url(img/bg5.jpg);
-    padding: 6% 0 0 0;
-  }
-
-  </style>
-
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
 		</script>
    <![endif]-->
-
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
@@ -94,20 +22,20 @@
      $('#fullpage').fullpage({
       verticalCentered: false,
       anchors: ['firstPage', 'secondPage', 'thirdPage', 'forthPage'],
+      menu: '#menu',
+      css3: true,
+      scrollingSpeed: 1000
     });
    });
    </script>
-
  </head>
  <body>
-
   <ul id="menu">
-    <li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
     <li data-menuanchor="secondPage"><a href="#secondPage">Details</a></li>
     <li data-menuanchor="thirdPage"><a href="#thirdPage">Blah...</a></li>
     <li data-menuanchor="forthPage"><a href="#forthPage">Booking</a></li>
   </ul>
-
   <div id="fullpage">
    <div class="section " id="section0">
     <h1>Faraway Cottage</h1>
@@ -133,6 +61,5 @@
   <p>Please visit <a href="http://ww2.cottages4you.co.uk/cottages/hague-end-w43428">www.cottages4you.co.uk</a></p>
 </div>
 </div>
-
 </body>
 </html>
