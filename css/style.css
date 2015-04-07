@@ -127,11 +127,11 @@ a:hover {
 	background-size: cover;
 }
 #section0{
-	background-image: url(../img/bg1.jpg);
-	padding: 30% 0 0 0;
+	background-image: url(../img/faraway-front-1600x1066.jpg);
+	padding: 6% 0 0 0;
 }
 #section2{
-	background-image: url(../img/bg3.jpg);
+	background-image: url(../img/bg2.jpg);
 	padding: 6% 0 0 0;
 }
 #section3{
@@ -144,7 +144,8 @@ a:hover {
 	color: #333;
 }
 #slide1{
-	background-image: url(../img/bg2.jpg);
+	background-size: cover;
+	background-image: url(../img/faraway-patio-1600x1066.jpg);
 	padding: 6% 0 0 0;
 }
 #slide2{
